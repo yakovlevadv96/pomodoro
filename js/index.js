@@ -1,15 +1,17 @@
 import { initControl } from './control.js';
 import { state } from './state.js';
+import { initTodo } from './todo.js';
 
 
 const initPomodoro = () => {
-  initControl();
+ // initControl();
+ initTodo();
 
-  state.activeTodo = {
+ /*state.activeTodo = {
     id: 'default',
-    pomodoro: 3,
+    pomodoro: 0,
     title: 'Помодоро',
-  }
+  }*/
 };
 
 initPomodoro();
