@@ -4,14 +4,8 @@ import { initTodo } from './todo.js';
 
 
 const initPomodoro = () => {
- // initControl();
+ initControl();
  initTodo();
-
- /*state.activeTodo = {
-    id: 'default',
-    pomodoro: 0,
-    title: 'Помодоро',
-  }*/
 };
 
 initPomodoro();
